@@ -1,16 +1,14 @@
 <template>
-    <ContentField>
-        对战
-    </ContentField>
+  <PlayGround/>
 </template>
  
  
 <script>
-import ContentField from '../../components/ContentField'
+import PlayGround from '../../components/PlayGround.vue'
  
 export default {
     components: {
-        ContentField
+        PlayGround
     }
 }
 </script>
